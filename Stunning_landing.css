@@ -1,0 +1,106 @@
+.top{
+    background-color: #FE5D20;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.logo{
+    padding: 10px;
+    margin: 10px;
+}
+.opt{
+    padding: 5px;
+    margin: 10px;
+    border: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu:hover{
+    text-decoration-color: #8071D0;
+    text-decoration-line: underline;
+}
+.menu{
+    padding: 5px;
+    margin: 5px;
+}
+.btn{
+    height: 40px;
+    width: 90px;
+    padding: 5px;
+    margin: 20px;
+    background-color: #ffd8db; 
+    color: #a389cc;
+    border-radius: 10px;
+    font-size: 10px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.btn1{
+    height: 30px;
+    width: 40;
+    background-color: #5243C0; 
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 8px;
+}
+.arrow{
+    border-radius: 15px;
+    border: hidden;
+}
+.btns{
+    margin-right: 80px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fix{
+    height: 500px;
+    width: 350px;
+}
+.user{
+    margin-top: 70px;
+}
+.clr{
+    color: rgba(0, 0, 0, 0.5);
+}
+.card{
+    background-color: rgba(128, 128, 128, 0.13);
+    margin: 10px;
+    padding: 2px;
+    border-radius: 20px;
+    border: 2px solid rgba(1, 1, 1, 0.05);
+    display: grid;
+    grid-template-columns: 15% 40% 15% 20%;
+    align-items: center;
+}
+.card:hover{
+    background-color: white;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.gradient{
+    height: 30px;
+    width: 30px;
+    background-image: url(tick-gray.png);
+    background-size: cover;
+}
+.gradient:hover{
+    background-image: url(tick-blue.png);
+}
+
+.pink:hover{
+    text-shadow: 5px 5px 5px rgb(240, 146, 162);
+}
+.orange:hover{
+    text-shadow: 5px 5px 5px orange;
+}
+.blue:hover{
+    text-shadow: 5px 5px 5px blue;
+}
+.red:hover{
+    text-shadow: 5px 5px 5px red;
+}
